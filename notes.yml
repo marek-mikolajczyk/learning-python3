@@ -1,0 +1,62 @@
+# lists
+sort,reverse method - permanently
+sorted function- temporary
+len function
+
+
+# loop
+range function off-by-one
+list function
+list comprehension - oneliner for new list generated from existing list4
+friend_foods = my_foods[:] - why not just = ?? because then we point to same list. not fork it
+tuples - immutable (not change) list, (a, b, c). to change, we redefine variable
+
+# if
+
+car.lower() == 'bmw'
+multiple conditions = and and and
+( ) and ( ) and ( ) for readability
+item in [list] / not in 
+else - catchall
+if-elif-else vs multiple if  
+combine for then if inside loop for special cases
+for + in = can use multiple lists
+
+# dict
+get method - default vaule
+for loop dict - for key,value in dict.items().
+for name,language - we create new dict. needs key-value dict
+.keys method - pull all keys , but its default behaviour
+sorted function + keys method
+.values shows all values
+set function - unique. or set directly - {}
+for value (list) in key, do loop 
+
+
+# input
+input function
+input always string
+% - modul, form odd/even
+flag, then whilte true
+break = quit loop no rest of the code
+break loop - with break (continue after loop) or just return to begin of  loop (continue)
+if continue - return to begining of loop
+if break - exit loop
+break same as active = False in while true
+
+# functions
+do one specific action. you call a function with myfuction(). you can store functions in modules
+arguments in order - positional arguments
+keyword arguments - x='a' when giving parameters
+default values - in 
+module import - import all functions 
+module.function()
+from module import function
+alias
+
+
+# class
+A function that’s part of a class is a method
+
+# files
+with - opens and closes
