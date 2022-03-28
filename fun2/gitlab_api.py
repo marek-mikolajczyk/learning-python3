@@ -2,9 +2,8 @@
 # https://towardsdatascience.com/json-and-apis-with-python-fba329ef6ef0
 
 
-# this script connects to Gitlab users API using environmental variables as url and credentials
-#  
-
+# this script connects to Gitlab users API using
+# environmental variables as url and credentials
 
 import os
 import requests
@@ -21,9 +20,7 @@ print(gitlab_address)
 print(f"my gitlab token is {gitlab_pat}")
 print(f"my gitlab url is {gitlab_address}")
 
-
-
-r = requests.get(gitlab_address, verify = False)
+r = requests.get(gitlab_address, verify=False)
 with open('aaa.txt', 'w') as f:
     f.write(r.text)
 
@@ -49,6 +46,3 @@ users_df.to_csv('aaa.csv', index=False)
 
 print('now showing users_list in table format')
 print(users_df.to_string(index=False))
-
-
-
