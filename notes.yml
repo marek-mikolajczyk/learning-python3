@@ -2,9 +2,12 @@ exercises:
 https://pynative.com/python-dictionary-exercise-with-solutions/
 
 # strings
+- string is a class in Python, has methods
 - array of characters
 - 'Z' in <string>
 - slicing
+- ''' preserves multi-line
+- immutable - cannot replace with str1[5] = 'x'
 
 # arithmetics
 - remainder/modulus 15 % 4 = 3
@@ -45,6 +48,9 @@ for value (list) in key, do loop
 - if 'a' in 'tama'
 - if not
 
+# while
+- if if runs break, then else will not execute. break terminates without completing loop
+
 
 # loop
 - for a in range(1,10) - excluding 10
@@ -54,6 +60,9 @@ list comprehension - oneliner for new list generated from existing list4
 friend_foods = my_foods[:] - why not just = ?? because then we point to same list. not fork it
 tuples - immutable (not change) list, (a, b, c). to change, we redefine variable
 
+# break, continue
+- break: exit immediately for loop or while loop
+- continue: skip. when hits, doesn't execute. good for conditionals?
 # if
 
 car.lower() == 'bmw'
