@@ -1,11 +1,54 @@
+exercises:
+https://pynative.com/python-dictionary-exercise-with-solutions/
+
+# strings
+- array of characters
+- 'Z' in <string>
+- slicing
+
+# arithmetics
+- remainder/modulus 15 % 4 = 3
+- floor division // give integer (removes all after .)
+
 # lists
+- []
+- not the same data type
+
 sort,reverse method - permanently
 sorted function- temporary
 len function
 
 
+# dict
+- {}
+- unordered set of objects
+- comma separated list of objects key:value
+- keys are used for indexing - immutable(string, number or tuple
+get method - default vaule
+for loop dict - for key,value in dict.items().
+for name,language - we create new dict. needs key-value dict
+.keys method - pull all keys , but its default behaviour
+sorted function + keys method
+.values shows all values
+set function - unique. or set directly - {}
+for value (list) in key, do loop 
+
+# tuples
+- ()
+
+# sets
+- set(a) = {1,2,3}
+- unique values
+
+# conditionals
+- if (1<2) and (5>4)
+- if 'a' in 'tama'
+- if not
+
+
 # loop
-range function off-by-one
+- for a in range(1,10) - excluding 10
+- for key in dict1{}
 list function
 list comprehension - oneliner for new list generated from existing list4
 friend_foods = my_foods[:] - why not just = ?? because then we point to same list. not fork it
@@ -22,15 +65,7 @@ if-elif-else vs multiple if
 combine for then if inside loop for special cases
 for + in = can use multiple lists
 
-# dict
-get method - default vaule
-for loop dict - for key,value in dict.items().
-for name,language - we create new dict. needs key-value dict
-.keys method - pull all keys , but its default behaviour
-sorted function + keys method
-.values shows all values
-set function - unique. or set directly - {}
-for value (list) in key, do loop 
+
 
 
 # input
