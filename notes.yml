@@ -15,6 +15,7 @@ https://www.programiz.com/python-programming/methods/dictionary
 - floor division // give integer (removes all after .)
 
 ### lists
+https://www.w3resource.com/python/python-list.php
 - []
 - can contain different data type (heterogenous)
 - mutable - data can change
@@ -22,19 +23,20 @@ https://www.programiz.com/python-programming/methods/dictionary
 - create list: [1, 2, 3] or list((1, 2, 3))
 - slicing: listname[start_index : end_index : step]
 - reverse list: print(my_list[::-1]) - doesn't overwrite list
-- add to list: append, insert (index), extend(adds list of items
+- add to list: append, insert (index, moves others to the right), extend(collection - list of items, <list> += [<el>/<collection>], 
 - remove from list: remove(first occurence) (loop for all occurences), pop(specfic index), clear (all items in list), del list - 
-- search list: index(value)
+- search list: index(value, start, end)
 - concatenate: + operator, extend() method
 - copy list: a[] = b[] (deep copy), new_list = my_list1.copy() method (shallow list)
-- sort, reverse (overwrites list), clear
+- sort (mylist.sort() or list = sorted(mylist), reverse (overwrites list), clear
 - python builtin functions: max(list), min(list), sum, all (if all values are true or empty list), any(at least one true value)
 - nested list - retrieve via nested loop
 - list comprehension - create list from list: outputlist = [var**2 for var in inputList if var < 15]
 - check if list contains x: x in list1
 - count how many times item is present: list.count(x)
-- show index of value: list1.index(value)
+- show index of value (first found): list1.index(value)
 - iterators for 2 lists - for i, j in zip(list1, list2):
+- string to list: myvar = list('abc')
 # functions
 len() - number of items
 
