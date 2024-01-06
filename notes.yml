@@ -50,14 +50,25 @@ len function
 ### dict
 - {}
 - unordered set of objects
-- comma separated list of objects key:value
-- keys are used for indexing - immutable(string, number or tuple
-get method - default vaule
-for loop dict - for key,value in dict.items().
-for name,language - we create new dict. needs key-value dict
-.keys method - pull all keys , but its default behaviour
-sorted function + keys method
-.values shows all values
+- comma separated list of pairs key:value
+- keys do indexing - immutable type (string, number or tuple)
+- print keys: dict1.keys()
+- print values: dict1.values()
+- print key-value pairs (tuples): dict1.items
+- get value: dict1.get('color')
+- add: dict1.update({'country' : 'XXX'})
+- create dict from given keys and values: x = dict.fromkeys(myk, myv) . this will assign value to all keys
+- remove precise key: dict1.pop('color') or del dict1['color']
+- remove last: dict1.popitem()
+- loop: for x, j in dict1.items():
+- sort: print(sorted(dict1)) then loop to display
+- find max and minimum value: print(max(my_dict.keys()))
+- find and set default if failed: dict1.setdefault('fruit', 'bananas')
+- check if key with specific value exists: if 'XXX' in dict1
+- number of keys: len(dict1)
+
+
+
 set function - unique. or set directly - {}
 for value (list) in key, do loop 
 - dict comprehension: sample_dict = {k: sample_dict[k] for k in sample_dict.keys() - keys}
