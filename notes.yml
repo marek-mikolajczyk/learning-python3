@@ -62,6 +62,7 @@ len function
     alternatively use loop, get range of keys
     alternatively: dict1 = {k: sample_dict[k] for k in keys}
 - remove precise key: dict1.pop('color') or del dict1['color']
+    alternatively: {k: sample_dict[k] for k in sample_dict.keys() - keys}
 - remove last: dict1.popitem()
 - loop: for x, j in dict1.items():
 - sort: print(sorted(dict1)) then loop to display
