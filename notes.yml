@@ -127,10 +127,27 @@ for + in = can use multiple lists
 
 
 
-# input
-input function
-input always string
-% - modul, form odd/even
+### input & output
+https://pynative.com/python-input-and-output-exercise/
+- input function  - always converts to string. check type(x)
+    for int: make int(input(xxx)) or float(input(xxx))
+    take multiple values: name, age = input('give name and age separate by spaces: ').split()
+    multiline input: 
+        while True:
+            line = input()
+            if line, else break
+        x = '\n'.join(data)
+    python2 differences: input (differentiates data type) and raw_input (as string)
+- input work with OS commands:
+    sys.argv (python program.py - that makes 1 argument already). its a list so sys.argv[0]
+- output: 
+    print: can define sep=
+    formatting: <str>.format(*args, **kwargs)
+        print('name {firstname}, age {giveage}'.format(firstname = name, giveage=age))
+        print('name {0}, age {1}'.format('toto', 1))
+        print('{:^25}'.format(text))
+        display binary: print('{0:b}'.format(number))
+        text.ljust(60,*)
 flag, then whilte true
 break = quit loop no rest of the code
 break loop - with break (continue after loop) or just return to begin of  loop (continue)
