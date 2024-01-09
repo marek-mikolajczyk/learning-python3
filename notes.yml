@@ -169,5 +169,16 @@ alias
 # class
 A function that’s part of a class is a method
 
-# files
+# file handling
+https://pynative.com/python/file-handling/
+https://pynative.com/python-create-file/
+    built-in function open()
+    use os. to list directories
+        with open(os.path.join(path, file_name) as fp
+    fp = open('file.txt', '<mode>')
+    fp.write()/close()
+    files are created in cwd
+delete files: https://pynative.com/python-delete-files-and-directories/
+    import os
+    import pathlib - since python 3.4
 with - opens and closes
