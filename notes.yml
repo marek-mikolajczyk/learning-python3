@@ -90,8 +90,11 @@ for value (list) in key, do loop
 - ()
 
 # sets
-- set(a) = {1,2,3}
-- unique values
+- set(a) = {1,'xxx',3}
+- unordered (not like lists - no index or insert), unique no duplicate
+- immutable - cannot modify, but can add or delete
+- create set: set((1, 2)) or set = {1, 2} or set(list)
+- add items: a.update([list]) or a.add(sinlge value)
 
 # conditionals
 - if (1<2) and (5>4)
