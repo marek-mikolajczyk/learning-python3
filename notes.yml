@@ -173,7 +173,26 @@ from module import function
 alias
 
 
-# class
+### class
+- blueprint for object. identity attributes (states) and methods (behaviours). use methods to modify state
+- object - instance of class (instantiation)
+- object creation - constructor method creates object (__new__) then initialize __init__() method
+- constructor can be parametrized on non parametrized
+- self refers to current object
+- attributes: class variables (declare not in method) and instance variables (declare inside __init__() )
+    instance variables - create inside constructor (__init__), ex. self.name, access via print(object.name) or getattr(object, 'name')
+        delete attribute - delattr(object, 'name') or del object.var
+        get dict of attributes - print(object.__dict__)
+    class variables: add above __init__, access object.var
+        modify class var - class.var = newvalue
+- count number of objects:  Employee.count = Employee.count + 1 inside constructor
+- destructor: del object. python deletes all objects when program is terminated
+- encapsulation - ex. is class object, because it connects data and methods
+    self.name (public), self._name (class and subclass), self.__name (private only within class. need to create method to access)
+    - ensure encapsulation: getters and setters
+        hide private vars: use return, ex. get_age(self) = return self.__age
+        validation when setting:  self.__age = age with def set_age
+
 A function that’s part of a class is a method
 
 # file handling
@@ -189,3 +208,5 @@ delete files: https://pynative.com/python-delete-files-and-directories/
     import os
     import pathlib - since python 3.4
 with - opens and closes
+
+
