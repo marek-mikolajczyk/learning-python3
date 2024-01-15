@@ -192,6 +192,14 @@ alias
     - ensure encapsulation: getters and setters
         hide private vars: use return, ex. get_age(self) = return self.__age
         validation when setting:  self.__age = age with def set_age
+- instance methods vs class methods:
+    add instance method at runtime: 
+        when cannot modify class (defined in static file)
+        import types, then define function in global, then modify instance
+
+            def welcome(self):
+                print('hip hip hurraa', self.name)
+            marek.welcome = types.MethodType(welcome, marek)
 
 A function that’s part of a class is a method
 
