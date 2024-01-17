@@ -92,15 +92,23 @@ for value (list) in key, do loop
 # sets
 https://pynative.com/python-sets/
 - set(a) = {1,'xxx',3}
-- unordered (not like lists - no index or insert), unique no duplicate
-- immutable - cannot modify, but can add or delete
-- create set: set((1, 2)) or set = {1, 2} or set(list)
+- unordered (not like lists - no index or insert) collection of unique data (no duplicate)
+- immutable - cannot modify item's value, but can add or delete
+- create set: set((1, 2)) or set = {1, 2} or set(list). create empty set = set()
 - add items: a.update([list]) or a.add(sinlge value)
 - remove item: .remove(single, error if not found), .discard(single, no error if not found) 
     random - pop
     clear - all items
-
-# conditionals
+- operations on sets:
+    union (sum of both): a = set1 | set2, or b = set1.union(set2)
+    intersection (common in both): d = set1 & set2    or d = set1.intersection(s    et2)
+    difference: a = (set1 - set2)   or a = set1.difference(set2)
+    symmetric differenc e (unique in both sets- oposite to intersection): a = (set1 ^ set2) or symmetric_difference
+    issubset: if all items in set1 are present in set2  : set2.issubset(set4)
+    issuperset (contains all elements of B and more)
+    isdisjoint (no common elements)
+    any,all, max, min
+    frozenset: no appending/deleting
 - if (1<2) and (5>4)
 - if 'a' in 'tama'
 - if not
