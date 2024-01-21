@@ -88,6 +88,9 @@ for value (list) in key, do loop
 
 # tuples
 - ()
+- ordered (index and slicing), cannot change after creation, duplicates
+- packing: tuple1 = 1, 2, "Hello"
+    unpacking: i, j, k = tuple1
 
 # sets
 https://pynative.com/python-sets/
