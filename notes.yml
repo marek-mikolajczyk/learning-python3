@@ -229,3 +229,20 @@ delete files: https://pynative.com/python-delete-files-and-directories/
 with - opens and closes
 
 
+
+### print
+- https://realpython.com/python-print/
+- print() - parentheeses means execute . empty gives invisible newline (lineseparator - os.linesep = '\r\n' on windows, linux is '\n')
+    \r (CR) - carriage return - typewriter machine, move to beginning of the line
+    \n (LF) - line feed - typewriter advance roll to next line
+- windows path - always use \\ even with ', it's still escape character!
+- newline with multiline: use
+    """This
+    or
+    """\
+    This
+- print() - does automatic: print('hello ', 42)
+- disable newline: print(1, 2, end='')
+- loop will add 2nd newline
+- buffering streams: flush=True
+- own datatypes: namedtuple
